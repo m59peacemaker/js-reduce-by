@@ -1,6 +1,6 @@
 {
   "name": "reduce-by",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn an array of values into an object by using a function to determine the key an item belongs to and a function to determine how an item is grouped under that key.",
   "keywords": [
     "group",
@@ -19,6 +19,10 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/js-reduce-by"
   },
   "author": "Johnny Hauser <johnnyhauser@gmail.com>",
   "license": "CC0-1.0",
