@@ -27,13 +27,13 @@ reduceBy(
 
 ### `reduceBy(groupReducer, getInitialGroupValue, getKey, array)`
 
-- `groupReducer(group, value)`: function that takes the accumulated group value and a value to be grouped and returns the new accumulated group value
-  - `group`: accumulated group value
-  - `value`: value to be added to the group
+- `groupReducer(group, value)` function that takes the accumulated group value and a value to be grouped and returns the new accumulated group value
+  - `group` accumulated group value
+  - `value` value to be added to the group
   - `=> group` accumulated group value
-- `getInitialGroupValue()`: function that returns the initial value for groups
+- `getInitialGroupValue()` function that returns the initial value for groups
   - `=> initialGroupValue`
-- `getKey(value)`: function that takes `value` and returns the key that `value` belongs to
+- `getKey(value)` function that takes `value` and returns the key that `value` belongs to
   - `=> key` the key the value should be grouped under
 - `array: []` an array of items to be turned into an object
 - `=> object`

@@ -1,6 +1,6 @@
 {
   "name": "reduce-by",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Turn an array of values into an object by using a function to determine the key an item belongs to and a function to determine how an item is grouped under that key.",
   "keywords": [
     "group",
